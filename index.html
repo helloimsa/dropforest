@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1320">
+    <title>dropforest</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/header/favi_logo.png">
+    <!-- webfont -->
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- js -->
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap"><!--wrap_S-->
+        <div id="header"><!--header_S-->
+            <div class="video_wrap">
+                <video src="./media/main_header_video.mp4" autoplay muted loop></video>
+                <div class="dropforest">
+                    <p>Drop Forest</p>
+                </div>
+            </div>
+            <div class="inner_header">
+                <div class="util_wrap">
+                    <ul class="util">
+                        <li><a href="#"><img src="./images/header/search_w.png" alt="search"></a></li>
+                        <li><a href="#"><img src="./images/header/personal_w.png" alt="personal"></a></li>
+                        <li><a href="#"><img src="./images/header/cart_w.png" alt="cart"></a></li>
+                    </ul>
+                </div>
+                <div class="gnb_wrap">
+                    <ul class="gnb">
+                        <li><a href="#">BRAND</a></li>
+                        <li><a href="#">PRODUCTS</a></li>
+                        <li><a href="#"><img src="./images/header/thick_logo.png" alt="logo"></a></li>
+                        <li><a href="#">EVENT</a></li>
+                        <li><a href="#">COMMUNITY</a></li>
+                    </ul>
+                </div>
+                <!-- js -->
+                <script>
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 165) {
+                            $('.gnb_wrap').addClass('header_scroll')
+                        } else {
+                            $('.gnb_wrap').removeClass('header_scroll')
+                        }
+                    })
+                </script>
+            </div>
+        </div><!--header_E-->
+        <div id="section1"><!--section1_S-->
+            <div class="inner_section1">
+                <div class="sec1_text">
+                    <h1 class="title">
+                        Drop Forest
+                        <br>Brand Story
+                    </h1>
+                    <p>'Drop Forest'는 아로마테라피의 정수를 담아
+                        <br>안전하고 건강한 아름다움을 표방합니다.
+                        <br>전제품은 믿을 수 있는 자연유래 원료를 포함한
+                        <br>비건 포뮬러 처방으로 생산됩니다.
+                        <br>오직 한방울의 향기로 지친 몸과 마음에 휴식처가
+                        <br>될 수 있는 해답을 제시합니다.
+                    </p>
+                    <div class="btn">
+                        <a href="#">MORE INFO</a>
+                    </div>
+                    <div class="ingredient">
+                        <img src="./images/main/ingredient_info_3x.png" alt="ingredient_info">
+                        <div class="cover_in">
+                            <p>INGREDIENT
+                                <br>INFO
+                            </p>
+                            <div class="btn white"><a href="#">바로가기</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec1_img">
+                    <ul class="sec1_img_wrap">
+                        <li>
+                            <img src="./images/main/oil_drop.png" alt="oil_drop" class="oil">
+                            <div class="cover">
+                                <p>한방울,
+                                    <br>온전한 나를 만나는
+                                    <br>나를 위한 비건 레시피
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/main/main_oil_bg.png" alt="main_bg">
+                            <img src="./images/main/wheel_letter.png" alt="wheel_letter" class="wheel">
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="main_bg">
+                <img src="./images/main/main_bg_2x.png" alt="main_bg">
+            </div>
+        </div><!--section1_E-->
+        <div id="section2"><!--section2_S-->
+            <div class="inner_section2">
+                <div class="left_text">
+                    <h1 class="title">BEST</h1>
+                    <p>드랍포레스트는 '본연의 나'와 '지금의 나'를 위한
+                        <br>제품들에 집중합니다. 전 제품은 합성향료와
+                        <br>인체에 유해한 성분을 배제한 비건 포뮬러
+                        <br>처방으로 생산됩니다.
+                    </p>
+                    <p>제품 생산 전 과정에 걸친 꼼꼼한 모니터링과
+                        <br>엄격한 기준으로 생산된 드랍포레스트의
+                        <br>베스트 제품을 지금바로 만나보세요!
+                    </p>
+                    <div class="btn best_btn">
+                        <a href="#">MORE PRODUCTS</a>
+                    </div>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="padding_wrap">
+                                <div class="products_img"><img src="./images/main/best_1_3x.png" alt="facial_oil"></div>
+                                <p class="underline">라벤더 페이셜오일 15ml</p>
+                                <p class="price">18,000원</p>
+                            </div>
+                            <div class="cart"><a href="#">CART</a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="padding_wrap">
+                                <div class="products_img"><img src="./images/main/best_2_3x.png" alt="facial_oil"></div>
+                                <p class="underline">아로마 포레스트 디퓨저</p>
+                                <p class="price">19,800원</p>
+                            </div>
+                            <div class="cart"><a href="#">CART</a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="padding_wrap">
+                                <div class="products_img"><img src="./images/main/best_3_3x.png" alt="facial_oil"></div>
+                                <p class="underline">아로마 밸런싱 클렌징 바디솝</p>
+                                <p class="price">22.000원</p>
+                            </div>
+                            <div class="cart"><a href="#">CART</a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="padding_wrap">
+                                <div class="products_img"><img src="./images/main/best_4_3x.png.jpg" alt="facial_oil"></div>
+                                <p class="underline">포레스트 릴렉싱 룸 스프레이</p>
+                                <p class="price">24,000원</p>
+                            </div>
+                            <div class="cart"><a href="#">CART</a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="padding_wrap">
+                                <div class="products_img"><img src="./images/main/best_5_3x.png.jpg.png" alt="facial_oil"></div>
+                                <p class="underline">오가닉 그린 아로마 바디워시</p>
+                                <p class="price">28,000원</p>
+                            </div>
+                            <div class="cart"><a href="#">CART</a></div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div><!--section2_E-->
+        <div id="banner"><!--banner_S-->
+            <div id="slide">
+                <div class="swiper mySwiper1">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="#"><img src="images/main/banner1.png" alt="banner"></a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#"><img src="images/main/banner2.png" alt="banner"></a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="#"><img src="images/main/banner3.png" alt="banner"></a>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+        </div><!--banner_E-->
+        <div id="section3"><!--section3_S-->
+            <div class="inner_section3">
+                <div class="box" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="left event_img">
+                        <img src="./images/main/recycle.jpg" alt="recycle">
+                    </div>
+                    <div class="right event_text">
+                        <h2>Save Earth Campain</h2>
+                        <p>지속가능한 뷰티, 지속가능한 환경, 지속가능한 삶</p>
+                        <p>드랍포레스트는 지속가능성과 환경보호에 대해
+                            <br>끊임없이 연구합니다.
+                        </p>
+                        <p>지금 바로 드랍포레스트와 함께
+                            <br>save earth 공병수거 캠페인에 참여해보세요!
+                        </p>
+                        <div class="btn"><a href="#">참여하러 가기</a></div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="left event_text ta_r">
+                        <h2>Aroma 1-day class</h2>
+                        <p>취'향' 발견하기</p>
+                        <p>나만의 취'향'을 찾아 나를 진하게 느낄 수 있도록 하고,
+                            <br>향으로 스스로를 위로합니다
+                        </p>
+                        <p>자연이 주는 선물,
+                            <br>천연 에센셜 오일로 나만의 향을 제작해보세요!
+                        </p>
+                        <div class="btn"><a href="#">클래스 신청하기</a></div>
+                    </div>
+                    <div class="right event_img">
+                        <img src="./images/main/class.png" alt="class">
+                    </div>
+                </div>
+            </div>
+        </div><!--section3_E-->
+        <div id="section4"><!--section4_S-->
+            <div class="inner_section4">
+                <ul class="puzzle">
+                    <li class="flip"><a href="#"><img src="./images/main/product3_2x.png" alt="aroma_oil"></a></li>
+                    <li><a href="#"><img src="./images/main/logo_big.png" alt="logo"></a></li>
+                    <li class="scale"><a href="#"><div class="scale_box"><img src="./images/main/puzzle2.png" alt="puzzle2"></div></a></li>
+                    <li class="flip"><a href="#"><img src="./images/main/product2_2x.png" alt="room_spray"></a></li>
+                    <li><a href="#" class="puz_text">
+                            <h3>FOR LIVING</h3>
+                            <p>공간에 자연을 더하다
+                                <br>ROOM THERAPY
+                            </p>
+                        </a></li>
+                    <li><a href="#" class="puz_text">
+                            <h3>AROMA
+                                <br>THERAPY
+                            </h3>
+                            <p>고요한 밤을 위한 아로마테라피
+                                <br>NIGHTY NIGHT
+                            </p>
+                        </a></li>
+                    <li class="scale"><a href="#"><div class="scale_box"><img src="./images/main/puzzle3.png" alt="puzzle3"></div></a></li>
+                    <li class="flip"><a href="#"><img src="./images/main/product1_2x.png" alt="bodywash"></a></li>
+                    <li><a href="#" class="puz_text">
+                            <h3>FOR BODY
+                            </h3>
+                            <p>자연에너지로 숨쉬는 피부
+                                <br>NATURAL ENERGY
+                            </p>
+                        </a></li>
+                    <li class="scale"><a href="#"><div class="scale_box"><img src="./images/main/puzzle4.png " alt="puzzle"></div></a></li>
+                </ul>
+            </div>
+        </div><!--section4_E-->
+        <div id="footer"><!--footer_S-->
+            <div class="inner_footer">
+                <div class="f_info_wrap">
+                    <div class="support">
+                        <h1 class="foot_title">SUPPORT</h1>
+                        <p>MON - FRI 1PM - 5PM</p>
+                        <p>SAT. SUN. HOLIDAY OFF</p>
+                        <p>070-0830-0522</p>
+                        <p>helloimsa423@naver.com</p>
+                    </div>
+                    <div class="follow">
+                        <ul class="sns">
+                            <li>
+                                <h1 class="foot_title">FOLLOW US</h1>
+                            </li>
+                            <li><a href="#">
+                                <img src="./images/main/instagram.png" alt="insta">
+                                INSTAGRAM
+                            </a></li>
+                            <li><a href="#"><img src="./images/main/youtube.png" alt="youtube">YOUTUBE</a></li>
+                            <li><a href="#"><img src="./images/main/kakao.png" alt="kakao">KAKAOTALK</a></li>
+                            <li><a href="#"><img src="./images/main/facebook.png" alt="facebook">FACEBOOK</a></li>
+                        </ul>
+                        <div class="footer_info">
+                            <p>(주)드랍포레스트 ㅣ 사업자등록번호: 000-00-00000 ㅣ 대표자:김상아
+                                <br>부산광역시 연제구 거제천로 124번길 55 ㅣ 대표번호 070-0830-0522
+                                <br>ㅣ이메일 : helloimsa423@naver.com</p>
+                            <p>개인정보 보호 책임자: 김상아 ㅣ
+                                <br>통신판매업신고: 제 2023-부산연제-0830 호</p>
+                            <p>2023. DROP FOREST</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_img">
+                    <img src="./images/main/footer_img.png" alt="footer_img">
+                    <img src="./images/main/logo_big.png" alt="logo" class="f_logo">
+                </div>
+
+            </div>
+        </div><!--footer_E-->
+        <div class="f_bg_wrap">
+            <div class="f_bottom">
+                <img src="./images/main/footer_bg.png" alt="#">
+            </div>
+            <div class="dropforest_f">
+                <p>Drop Forest</p>
+            </div>
+        </div>
+    </div><!--wrap_E-->
+   
+    <!-- Swiper JS -->
+    <script src="./js/cdn.jsdelivr.net_npm_swiper@9_swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!--slide_ js  -->
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+            loop: true,//반복
+          loopAdditionalSlides: 1,
+          spaceBetween: 0,
+          centeredSlides: true,
+          autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>     

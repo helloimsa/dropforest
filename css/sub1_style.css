@@ -19,15 +19,19 @@ body{
     font-weight: 100;
 }
 #wrap{
-    min-width: 1320px;
+    min-width: 1360px;
 }
 /*header*/
 #header{
     height: 165px;
- }
+}
 .inner_header{
-    width: 1320px;
-    margin: 0 auto;
+    width: 100%;
+    height: 165px;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 15;
 }
 .util_wrap{
     width: 1320px;
@@ -47,11 +51,11 @@ body{
     padding-left: 30px;
 }
 .gnb_wrap{
-    text-align: center;
     height: 165px;
 }
 .gnb{
-    display: inline-block;
+    width: 1320px;
+    margin: 0 auto;
 }
 .gnb li{
     float: left;
@@ -62,13 +66,52 @@ body{
 }
 .gnb li a{
     display: block;
-    color: #49705B;
+    color: #5a755f;
     font-size: 18px;
     font-weight: bold;
     padding: 0 60px;
 }
 .gnb li:nth-child(3) a{
     margin-top: -50px;
+}
+/*submenu*/
+.submenu{
+    position: absolute;
+    top: 165px;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: rgba(255, 254, 236, 0.5);
+}
+.inner_submenu{
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+.inner_submenu ul{
+    float: left;
+    width: 15%;
+}
+.ul_1{
+    margin-left: 165px;
+}
+.inner_submenu .margin_right{
+    margin-right: 215px;
+}
+.submenu li a{
+    display: block;
+    color: #5a755f;
+    padding: 10px 26px;
+}
+.submenu li a:hover{
+    color: #ffdd6e;
+}
+/* scroll했을때, 바뀌는 꾸미기 내용 */
+.header_scroll{
+    background-color: rgba(255, 254, 236, 0.5);
+    transition: all 0.5s;
+}
+.header_scroll .gnb li a{
 }
 /*section1*/
 #section1{
@@ -78,6 +121,7 @@ body{
     background: url(../images/sub1/house_bg.png) no-repeat top center;
     height: 1076px;
     background-attachment: fixed;
+    overflow: hidden;
 }
 .brand{
     text-align: center;
@@ -106,6 +150,7 @@ body{
 #section2{
     background-color: rgb(255, 255, 255);
     height: 2380px;
+    overflow: hidden;
 }
 .inner_section2{
     width: 1166px;
@@ -116,7 +161,6 @@ body{
 .content_box{
     margin: 100px 0;
     height: 580px;
-    /* background-color: pink; */
 }
 .right{
     float: right;
@@ -199,6 +243,7 @@ body{
 #section3{
     background: url(../images/sub1/roundsq_bg.png) no-repeat top 50% center #EEE6D8;
     height: 740px;
+    overflow: hidden;
 }
 .inner_section3{
     width: 1320px;
@@ -230,6 +275,7 @@ body{
 /*section4*/
 #section4{
     height: 1115px;
+    overflow: hidden;
 }
 .inner_section4{
     width: 1320px;
@@ -292,7 +338,7 @@ body{
 }
 /*section5*/
 #section5{
-    height: 1158px;
+    height: 1250px;
 }
 .inner_section5{
     padding-top: 120px;
@@ -301,12 +347,20 @@ body{
 }
 .ingre_wrap{
     height: 948px;
+    margin-top: 60px;
 }
 .ingre_wrap li{
     float: left;
+    width: 25%;
+    margin-bottom: 30px;
 }
 .hover_wrap{
     position: relative;
+    width: 280px;
+    height: 440px;
+}
+.hover_wrap h2{
+    letter-spacing: 1px;
 }
 .hover_wrap:hover .img_wrap{
     transform: translate(-20px, -20px);
@@ -320,19 +374,20 @@ body{
 }
 .img_wrap{
     text-align: center;
-    width: 280px;
-    height: 440px;
     background-color: #FFFBEC;
     border-radius: 30px;
     padding: 30px;
     box-sizing: border-box;
     transition: all 0.5s;
 }
+.img_wrap img{
+    display: block;
+}
 .ko_name{
     font-size: 14px;
 }
 .cover{
-    background-color: #869D84;
+    background-color: #7f947c;
     width: 100%;
     height: 100%;
     border-radius: 30px;
@@ -354,8 +409,54 @@ body{
 }
 .inner_cover p{
     border-bottom: 1px solid #fff;
+    padding-top: 5px;
 }
 .inner_cover h4{
     padding: 10px 0 30px;
 }
-
+/*footer*/
+#footer{
+    height: 240px;
+    background-color: #354439;
+    color: #F8F9EC;
+}
+.inner_footer{
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.footer_wrap{
+    height: 200px;
+}
+.footer_wrap li h1 img{
+    width: 100%;
+}
+.footer_wrap> li{
+    float: left;
+    width: 22%;
+    box-sizing: border-box;
+    height: 100px;
+    margin: 1.5%;
+}
+.footer_wrap li:nth-child(4){
+    margin-right: 0;
+}
+.footer_wrap h3{
+    border-bottom: 1px solid  rgba(255, 243, 221, 0.3);
+    margin-bottom: 20px;
+}
+.footer_wrap p{
+    font-size: 10px;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.sns li{
+    float: left;
+    width: 25%;
+}
+.sns li img{
+    opacity: 0.5;
+}
+.sns li img:hover{
+    opacity: 1;
+}

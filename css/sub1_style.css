@@ -349,6 +349,7 @@ body{
     height: 948px;
     margin-top: 60px;
     width: 1320px;
+    text-align: center;
 }
 .ingre_wrap li{
     float: left;
@@ -359,6 +360,7 @@ body{
     position: relative;
     width: 280px;
     height: 440px;
+    display: inline-block;
 }
 .hover_wrap h2{
     letter-spacing: 1px;

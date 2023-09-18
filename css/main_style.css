@@ -64,11 +64,11 @@ body{
     padding-left: 30px;
 }
 .gnb_wrap{
-    text-align: center;
     height: 165px;
 }
 .gnb{
-    display: inline-block;
+    width: 1320px;
+    margin: 0 auto;
 }
 .gnb li{
     float: left;
@@ -87,6 +87,38 @@ body{
 .gnb li:nth-child(3) a{
     margin-top: -50px;
 }
+/*submenu*/
+.submenu{
+    position: absolute;
+    top: 165px;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background-color:  rgba(125, 158, 133, 0.5);
+}
+.inner_submenu{
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+.inner_submenu ul{
+    float: left;
+    width: 14.5%;
+}
+.ul_1{
+    margin-left: 155px;
+}
+.inner_submenu .margin_right{
+    margin-right: 220px;
+}
+.submenu li a{
+    display: block;
+    color: #fffbd3;
+    padding: 10px 26px;
+}
+.submenu li a:hover{
+    color: #ffe58e;
+}
 .dropforest{
     color: #FEFBE2;
     font-size: 200px;
@@ -98,7 +130,7 @@ body{
 }
 /* scroll했을때, 바뀌는 꾸미기 내용 */
 .header_scroll{
-    background-color: rgba(158, 168, 153, 0.5);
+    background-color: rgba(125, 158, 133, 0.5);
     transition: all 0.5s;
 }
 .header_scroll{

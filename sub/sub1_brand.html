@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1320">
+    <meta name="viewport" content="width=1360">
     <title>dropforest_brand</title>
     <!-- favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="../images/sub1/favi_logo.png">
@@ -31,14 +31,48 @@
                 </div>
                 <div class="gnb_wrap">
                     <ul class="gnb">
-                        <li><a href="#">BRAND</a></li>
+                        <li class="ul_1"><a href="#">BRAND</a></li>
                         <li><a href="#">PRODUCTS</a></li>
-                        <li><a href="#"><img src="../images/sub1/green_logo.png"></a></li>
+                        <li><h1><a href="../index.html"><img src="../images/sub1/green_logo.png"></a></li></h1>
                         <li><a href="#">EVENT</a></li>
                         <li><a href="#">COMMUNITY</a></li>
                     </ul>
+                    <div class="submenu">
+                        <div class="inner_submenu">
+                            <ul class="ul_1">
+                                <li><a href="sub1_brand.html#section2">BRAND MESSAGE</a></li>
+                                <li><a href="sub1_brand.html#section3">BRAND STORY</a></li>
+                                <li><a href="sub1_brand.html#section5">INGREDIENT</a></li>
+                            </ul>
+                            <ul class="margin_right">
+                                <li><a href="#">BRAND MESSAGE</a></li>
+                                <li><a href="#">BRAND STORY</a></li>
+                                <li><a href="#">INGREDIENT</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">BRAND MESSAGE</a></li>
+                                <li><a href="#">BRAND STORY</a></li>
+                                <li><a href="#">INGREDIENT</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">BRAND MESSAGE</a></li>
+                                <li><a href="#">BRAND STORY</a></li>
+                                <li><a href="#">INGREDIENT</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- js -->
+            <script>
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 165) {
+                        $('.gnb_wrap').addClass('header_scroll')
+                    } else {
+                        $('.gnb_wrap').removeClass('header_scroll')
+                    }
+                })
+            </script>
         </div><!--header_E-->
         <div id="section1"><!--section1_S-->
             <div class="brand">
@@ -191,9 +225,9 @@
                             <div class="img_wrap">
                                 <img src="../images/sub1/ingre1.png" alt="ingredient">
                                 <h2>LAVENDER</h2>
-                                <p class="ko_name">유칼립투스</p>
-                                <p>정신을 맑게, 활력과 긍정의 시야
-                                    <br>회복시키는 청량한 에너지
+                                <p class="ko_name"> 라벤더</p>
+                                <p>부드럽고 은은한 향기가 심신을
+                                    <br>편안하게 해주는 포근한 에너지
                                 </p>
                             </div>
                             <div class="cover">
@@ -205,7 +239,167 @@
                                     <p>향  :  언더톤 꽃, 허브향</p>
                                     <p>추출부위  :  꽃, 꽃대</p>
                                     <p>추출방법  :  수증기 증류법</p>
-
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hover_wrap">
+                            <div class="img_wrap">
+                                <img src="../images/sub1/ingre2.png" alt="ingredient">
+                                <h2>EUCALYPTUS</h2>
+                                <p class="ko_name">유칼립투스</p>
+                                <p>정신을 맑게, 활력과 긍정의 시야
+                                    <br>회복시키는 청량한 에너지
+                                </p>
+                            </div>
+                            <div class="cover">
+                                <div class="inner_cover">
+                                    <h2>EUCALYPTUS</h2>
+                                    <h4 class="ko_name">유칼립투스</h4>
+                                    <p>학명  :  Eucalyptius globulus</p>
+                                    <p>원산지  :  스페인</p>
+                                    <p>향  :  캠퍼러셔스, 허베이셔스</p>
+                                    <p>추출부위  :  잎</p>
+                                    <p>추출방법  :  수증기 증류법</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hover_wrap">
+                            <div class="img_wrap">
+                                <img src="../images/sub1/ingre3.png" alt="ingredient">
+                                <h2>PEPPERMINT</h2>
+                                <p class="ko_name">페퍼민트</p>
+                                <p>상쾌한 향과 청량감으로 채우는
+                                    <br>신선한 에너지
+                                </p>
+                            </div>
+                            <div class="cover">
+                                <div class="inner_cover">
+                                    <h2>PEPPERMINT</h2>
+                                    <h4 class="ko_name">페퍼민트</h4>
+                                    <p>학명  :  Mentha Piperita</p>
+                                    <p>원산지  :  미국</p>
+                                    <p>향  :  신선하고 강한 풀향기</p>
+                                    <p>추출부위  :  꽃, 잎</p>
+                                    <p>추출방법  :  수증기 증류법</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hover_wrap">
+                            <div class="img_wrap">
+                                <img src="../images/sub1/ingre4.png" alt="ingredient">
+                                <h2>SANDALWOOD</h2>
+                                <p class="ko_name">샌달우드</p>
+                                <p>마음의 진정과 완화를 도와주는
+                                    <br>부드럽고 따듯한 에너지
+                                </p>
+                            </div>
+                            <div class="cover">
+                                <div class="inner_cover">
+                                    <h2>SANDALWOOD</h2>
+                                    <h4 class="ko_name">샌달우드</h4>
+                                    <p>학명  :  Santalum Albums</p>
+                                    <p>원산지  :  호주</p>
+                                    <p>향  :  달콤하고 부드러운 목재향</p>
+                                    <p>추출부위  :  나무</p>
+                                    <p>추출방법  :  수증기 증류법</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hover_wrap">
+                            <div class="img_wrap">
+                                <img src="../images/sub1/ingre5.png" alt="ingredient">
+                                <h2>ROSEMARY</h2>
+                                <p class="ko_name">로즈마리</p>
+                                <p>강하고 신선한 이슬,
+                                    <br>집중과 기분전환의 에너지
+                                </p>
+                            </div>
+                            <div class="cover">
+                                <div class="inner_cover">
+                                    <h2>ROSEMARY</h2>
+                                    <h4 class="ko_name">로즈마리</h4>
+                                    <p>학명  : Rosemarinus officinalis</p>
+                                    <p>원산지  :  튀니지</p>
+                                    <p>향  :  신선하고 짙은 허브향</p>
+                                    <p>추출부위  :  꽃,잎</p>
+                                    <p>추출방법  :  수증기 증류법</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hover_wrap">
+                            <div class="img_wrap">
+                                <img src="../images/sub1/ingre6.png" alt="ingredient">
+                                <h2>LEMON</h2>
+                                <p class="ko_name">레몬</p>
+                                <p>신선하고 상큼한 향으로
+                                    <br>생기와 활력의 싱그러운 에너지
+                                </p>
+                            </div>
+                            <div class="cover">
+                                <div class="inner_cover">
+                                    <h2>LEMON</h2>
+                                    <h4 class="ko_name">레몬</h4>
+                                    <p>학명  : Citrus limon</p>
+                                    <p>원산지  :  이탈리아, 시칠리</p>
+                                    <p>향  :  달달, 상큼한 감귤향</p>
+                                    <p>추출부위  :  레몬껍질</p>
+                                    <p>추출방법  : 냉압착법</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hover_wrap">
+                            <div class="img_wrap">
+                                <img src="../images/sub1/ingre7.png" alt="ingredient">
+                                <h2>VERGAMOT</h2>
+                                <p class="ko_name">버가못</p>
+                                <p>신선하고 상큼한 향으로
+                                    <br>생기와 활력의 싱그러운 에너지
+                                </p>
+                            </div>
+                            <div class="cover">
+                                <div class="inner_cover">
+                                    <h2>VERGAMOT</h2>
+                                    <h4 class="ko_name">버가못</h4>
+                                    <p>학명  : Citrus bergamia</p>
+                                    <p>원산지  :  이탈리아</p>
+                                    <p>향  :  달콤한 과일향</p>
+                                    <p>추출부위  :  과일껍질</p>
+                                    <p>추출방법  : 수증기 증류</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hover_wrap">
+                            <div class="img_wrap">
+                                <img src="../images/sub1/ingre8.png" alt="ingredient">
+                                <h2>SWEET MAJORAM</h2>
+                                <p class="ko_name">스윗마조람</p>
+                                <p>신선하고 상큼한 향으로
+                                    <br>생기와 활력의 싱그러운 에너지
+                                </p>
+                            </div>
+                            <div class="cover">
+                                <div class="inner_cover">
+                                    <h2>SWEET MAJORAM</h2>
+                                    <h4 class="ko_name">스윗마조람</h4>
+                                    <p>학명  : Lavandula angustifolia</p>
+                                    <p>원산지  :  이집트</p>
+                                    <p>향  :  우디, 플로럴, 웜, 스파이시</p>
+                                    <p>추출부위  :  잎, 꽃</p>
+                                    <p>추출방법  : 수증기 증류</p>
                                 </div>
                             </div>
                         </div>
@@ -213,8 +407,47 @@
                 </ul>
             </div>
         </div><!--section5_E-->
+        <div id="footer">
+            <div class="inner_footer">
+                <ul class="footer_wrap">
+                    <li><h1><a href="#"><img src="../images/sub1/foot_logo.png" alt="logo"></a></h1></li>
+                    <li>
+                        <h3>COMPANY INFO</h3>
+                        <p>(주)드랍포레스트 ㅣ 사업자등록번호: 000-00-00000 ㅣ 대표자:김상아
+                            부산광역시 연제구 거제천로 124번길 55 ㅣ 대표번호 070-0830-0522 
+                            ㅣ이메일 : helloimsa423@naver.com
+                        </p>
+                        <p>개인정보 보호 책임자: 김상아 ㅣ 
+                            통신판매업신고: 제 2023-부산연제-0830 호
+                        </p>
+                        <p>2023. DROP FOREST</p>
+                    </li>
+                    <li>
+                        <h3>SUPPORT</h3>
+                        <p>MON - FRI 1PM - 5PM
+                            <br>SAT. SUN. HOLIDAY OFF
+                            <br>070-0830-0522
+                            <br>helloimsa808@gmail.com
+                        </p>
+                    </li>
+                    <li>
+                        <h3>FOLLOW US</h3>
+                        <ul class="sns">
+                            <li><a href="#"><img src="../images/sub1/f_insta.png" alt="imsta"></a></li>
+                            <li><a href="#"><img src="../images/sub1/f_youtube.png" alt="youtube"></a></li>
+                            <li><a href="#"><img src="../images/sub1/f_kakao.png" alt="kakao"></a></li>
+                            <li><a href="#"><img src="../images/sub1/f_facebook.png" alt="facebook"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                 
+            </div>
+        </div>
     </div>
  
+    <!-- submenu js -->
+    <script src="../js/submenu_script.js"></script>
     <!-- aos js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

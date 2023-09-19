@@ -73,19 +73,19 @@ body{
 .gnb li{
     float: left;
     margin-top: 100px;
-}
-.gnb li img{
-    width: 80%;
+    width: 15%;
+    text-align: center;
 }
 .gnb li a{
     display: block;
     color: #FEFBE2;
     font-size: 18px;
     font-weight: bold;
-    padding: 0 60px;
+    padding-bottom: 37px;
 }
 .gnb li:nth-child(3) a{
-    margin-top: -50px;
+    margin-top: -80px;
+    padding-bottom: 9px;
 }
 /*submenu*/
 .submenu{
@@ -95,18 +95,20 @@ body{
     width: 100%;
     z-index: 9;
     background-color:  rgba(125, 158, 133, 0.5);
+    border-top: 1px solid rgba(252, 252, 252, 0.5);
 }
 .inner_submenu{
     width: 1320px;
     margin: 0 auto;
-    text-align: center;
 }
 .inner_submenu ul{
     float: left;
     width: 15%;
+    height: 150px;
+    text-align: center;
 }
 .ul_1{
-    margin-left: 165px;
+    margin-left: 120px;
 }
 .inner_submenu .margin_right{
     margin-right: 215px;

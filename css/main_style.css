@@ -286,6 +286,9 @@ body{
 .left_text{
     float: left;
 }
+.left_text h1{
+    padding-bottom: 30px;
+}
 .inner_section2 .swiper{
     width: 950px;
     float: right;
@@ -330,7 +333,7 @@ body{
     color: #F2ECD8;
 }
 .best_btn{
-    padding-top: 165px;
+    padding-top: 135px;
 }
 /*banner*/
 #slide {
